@@ -16,8 +16,3 @@ $space: 20px;
 
 $mobile-break: 700px;
 
-{% if site.baseurl %}
-	$base-url: {{ site.baseurl }};
-{% else %}
-	$base-url: '';
-{% endif %}
