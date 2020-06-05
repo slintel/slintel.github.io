@@ -11,6 +11,10 @@ baseurl:
 # -----
 # Build
 
+sass:
+  style: :compressed
+  sass_dir: _sass
+  
 timezone: Etc/UTC
 
 collections:
@@ -30,10 +34,6 @@ exclude:
   - LICENSE
   - Gemfile.lock
   - Gemfile
-
-sass:
-  style: :compressed
-  sass_dir: _sass
 
 defaults:
   -
