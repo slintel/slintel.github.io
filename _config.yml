@@ -20,6 +20,7 @@ collections:
   api:
     title: APIs
     position_number: 2
+
 plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
@@ -27,6 +28,12 @@ plugins:
 exclude:
   - readme.md
   - LICENSE
+  - Gemfile.lock
+  - Gemfile
+
+sass:
+  style: :compressed
+  sass_dir: _sass
 
 defaults:
   -
