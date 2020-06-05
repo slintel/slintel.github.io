@@ -6,7 +6,7 @@ description: Slintel API documentation.
 url: https://slintel.github.io
 google_analytics_key:
 permalink: pretty
-baseurl: _site/
+baseurl: 
 
 # -----
 # Build
