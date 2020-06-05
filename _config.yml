@@ -7,7 +7,7 @@ url: https://slintel.com
 google_analytics_key:
 permalink: pretty
 host:
-baseurl:
+baseurl: developer.slintel.com
 
 # -----
 # Build
