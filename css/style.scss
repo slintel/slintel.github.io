@@ -1,8 +1,7 @@
-@import "mixins";
-@import "main";
-@import "borland";
-@import "monaki";
-@import "cloudcannon";
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
 
 $brand-colour: #232323;
 
@@ -14,4 +13,14 @@ $space: 20px;
 
 $mobile-break: 700px;
 
-$base-url: '';
+{% if site.baseurl %}
+	$base-url: {{ site.baseurl }};
+{% else %}
+	$base-url: '';
+{% endif %}
+
+@import "mixins";
+@import "main";
+@import "borland";
+@import "monaki";
+@import "cloudcannon";
