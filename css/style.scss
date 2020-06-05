@@ -1,5 +1,10 @@
 ---
 ---
+@import "mixins";
+@import "main";
+@import "borland";
+@import "monaki";
+@import "cloudcannon";
 
 $brand-colour: #232323;
 
@@ -16,9 +21,3 @@ $mobile-break: 700px;
 {% else %}
 	$base-url: '';
 {% endif %}
-
-@import "mixins";
-@import "main";
-@import "borland";
-@import "monaki";
-@import "cloudcannon";
