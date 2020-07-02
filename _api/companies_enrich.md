@@ -2,7 +2,7 @@
 title: Enrich Company
 position_number: 1.1
 type: get
-description: This endpoint enriches company based on company name and (or) domain.
+description: This endpoint enriches company insights based on the value in the company name and/or company domain fields.
 parameters:
   - name: company_name
     content: name of the company

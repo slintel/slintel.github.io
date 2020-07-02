@@ -8,8 +8,8 @@ content_markdown: |-
   | Code | Name | Description |
   | --- | --- | --- |
   | 200 | OK | Success |
-  | 400 | Bad Request | We could not process that action |
-  | 403 | Forbidden | We could not authenticate you |
-  | 429 | Limit Exceeded | API call limit has exceeded |
-  | 429 | Too Many Requests Exception | Burst limit has exceeded |
+  | 400 | Bad Request | The action could not be processed |
+  | 403 | Forbidden | The request could not be authenticated |
+  | 429 | Limit Exceeded | The API call limit has been exceeded |
+  | 429 | Too Many Requests Exception | The burst limit has been exceeded |
 ---

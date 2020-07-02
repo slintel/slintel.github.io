@@ -2,7 +2,7 @@
 title: Enrich Lead on Name
 position_number: 1.6
 type: get
-description: This endpoint enriches a lead’s information on Name and Company.
+description: This endpoint enriches a lead’s information based on the value found in the Name and Company field.
 parameters:
   - name: name
     content: full name of the lead
@@ -13,10 +13,11 @@ parameters:
   - name: location
     content: location of the lead (optional)
 content_markdown: |-
-  The enrich endpoint charges credit for its usage. If a verified email is successfully returned, it will cost you 1 credit. 
-  If an email/phone is not found, but Slintel successfully found ALL of the following information, Slintel will charge a fraction of a credit.
+  The lead enrichment endpoint consumes credits for its usage. If a verified email is successfully returned, it will 
+  cost you 1 credit. If an email/phone is not found, but Slintel successfully found ALL of the following information, 
+  Slintel will charge a fraction of a credit.
   
-  The enrich endpoint also charges credits if you pass in the same information multiple times.
+  The enrich endpoint also charges credits if you pass the same information multiple times.
   {: .warning }
 left_code_blocks:
   - code_block: |-

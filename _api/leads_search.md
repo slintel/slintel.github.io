@@ -2,7 +2,7 @@
 title: Search Leads
 position_number: 1.2
 type: get
-description: This endpoint searches for lead in Slintel's Database.
+description: This endpoint allows you to search for leads in the Slintel Database.
 parameters:
   - name: lead_titles
     content: lead_titles (eg. cxo, manager, vp)

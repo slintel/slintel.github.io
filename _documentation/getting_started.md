@@ -5,13 +5,11 @@ parameters:
   - name:
     content:
 content_markdown: |-
-  Welcome to the Slintel API!
+  In addition to getting insights from the dashboard, you can now use the Slintel API to find and enrich leads. 
+  Our API is still under active development, so if you have any suggestions, please let us know by sending an email to 
+  [support@slintel.com](mailto:support@slintel.com).
 
-  Our API is still under active development.
-
-  If you have have any suggestions for API methods you’d like to see, please let us know! 
-  We would be happy to see if we can build it into our API.
-  
+  Here’s what you need to know about the Slintel API.
 left_code_blocks:
   - code_block:
     title:

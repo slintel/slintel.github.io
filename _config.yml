@@ -14,7 +14,7 @@ baseurl:
 sass:
   style: :compressed
   sass_dir: _sass
-  
+
 timezone: Etc/UTC
 
 collections:

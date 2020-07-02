@@ -5,12 +5,13 @@ parameters:
   - name:
     content:
 content_markdown: |-
-  Slintel uses API keys to allow access to the API.
+  Slintel uses API keys to authenticate and allow access to its users. 
+  An API key is a token that a client provides when making API calls. 
 
-  Slintel expects the API key to be included in all API requests to the server in as a header value.
+  The API key is expected to be included as a request header.
   {: .info}
   
-  In case of wrong api token value, you will receive 403 Forbidden error.
+  If the API token’s value is incorrect or unrecognized, you will receive a _**403 Forbidden**_ error message.
   {: .error}
 left_code_blocks:
   - code_block:
